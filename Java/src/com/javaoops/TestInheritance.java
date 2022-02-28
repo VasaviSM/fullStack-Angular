@@ -35,8 +35,8 @@ public class TestInheritance {
 
         //down casting
         ScientificCalc obj1 = (ScientificCalc) new Calculator1();
-        obj1.addition(5,6);
         obj1.area(4);
+        obj1.addition(5,6);
         //type is of child class, but parent object is down casted to child class
         //so can use properties of child class too
 
